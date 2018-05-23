@@ -16,3 +16,4 @@ I will use Javascript for the game logic in this project and Canvas as well to m
 
 ### Implementation Timeline
 <br>
+**Day 1:** Set up 
