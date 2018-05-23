@@ -15,10 +15,9 @@ Fractal Trees will allow:
 I will use Javascript for the game logic in this project and Canvas as well to manipulate the branch thickness. 
 
 ### Implementation Timeline
-<br>
-Day 1: <br> 
-Set up skeleton for project and decide what base case will be for this recursive project. Learn how to use canvas. Start recursive algorithm.
-Day 2: <br>
+<br> Day 1: <br> 
+Set up skeleton for project and decide what base case will be for this recursive project. Learn how to use canvas. Start recursive   algorithm.
+<br> Day 2: <br>
 Complete backend algorithm for recusively done fractal trees and edit to  and make prettier with canvas tools.
-Day 3: <br>
+<br> Day 3: <br>
 Make front-end view nicer
