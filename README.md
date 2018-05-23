@@ -16,6 +16,9 @@ I will use Javascript for the game logic in this project and Canvas as well to m
 
 ### Implementation Timeline
 <br>
-**Day 1:** Set up skeleton for project and decide what base case will be for this recursive project. Learn how to use canvas. Start recursive algorithm.
-**Day 2:** Complete backend algorithm for recusively done fractal trees and edit to  and make prettier with canvas tools.
-**Day 3:** Make front-end view nicer
+Day 1: 
+Set up skeleton for project and decide what base case will be for this recursive project. Learn how to use canvas. Start recursive algorithm.
+Day 2: 
+Complete backend algorithm for recusively done fractal trees and edit to  and make prettier with canvas tools.
+Day 3: 
+Make front-end view nicer
