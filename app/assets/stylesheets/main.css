@@ -1,21 +1,28 @@
-/* // body {
-//   // background: image_url('nature2.jpg');
-//   // background-size: cover;
-//   background-color: blue;
-// }
-
-// body {
-//     background-color: lightblue;
-//     width: 100%;
-//     height: 100%;
-// } */
-
-body {
-  background-image: url('../images/clouds.jpg');
-}
-
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   text-align: center;
+}
+
+.canvas-background {
+  /* background-image: url('../images/clouds.jpg');
+  background-size: cover;
+  background-position: center 0; */
+  background-color: lightgreen;
+  width: auto;
+  position: absolute;
+}
+
+.first-tree {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-tree {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tree-explanation {
+  padding: 15px;
 }
