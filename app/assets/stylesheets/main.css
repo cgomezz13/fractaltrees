@@ -1,7 +1,8 @@
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   text-align: center;
+  margin: 0.8em;
 }
 
 .canvas-background {
@@ -10,7 +11,7 @@ h1 {
   background-position: center 0; */
   background-color: lightgreen;
   width: auto;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .first-tree {
