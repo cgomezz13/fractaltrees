@@ -26,6 +26,8 @@ h1 {
 
 .tree-explanation {
   padding: 15px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .reference-trees {
@@ -47,4 +49,9 @@ h1 {
   font-size: 1.2em;
   padding: 1em 2em;
   line-height: 1.5;
+}
+
+.canvas-slides {
+  margin: 4%;
+  display: flex;
 }
