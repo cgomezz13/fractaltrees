@@ -6,10 +6,9 @@ h1 {
 }
 
 .canvas-background {
-  /* background-image: url('../images/clouds.jpg');
-  background-size: cover;
-  background-position: center 0; */
-  background-color: lightgreen;
+  background-image: url("../images/clouds.jpg");
+  /* background-size: cover; */
+  /* background-position: center 0; */
   width: auto;
   /* position: absolute; */
 }
