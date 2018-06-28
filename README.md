@@ -1,4 +1,4 @@
-### Backgroud
+### Background
 <br>
 Fractal Tree will be built recursively, every branch will have 2 branches. I plan to be able to keep track of the number of recursive steps and let the tree be built on a click of a button for better visualization.
 
@@ -10,7 +10,7 @@ Fractal Trees will allow:
 <li> Use Bezier Curves from Canvas API to add curves to branches, after initial build
 <li> Description of algorithm being used to create tree
 
-### Technologiies
+### Technologies
 <br>
 I will use Javascript for the game logic in this project and Canvas as well to manipulate the branch thickness. 
 
