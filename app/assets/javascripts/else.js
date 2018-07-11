@@ -79,8 +79,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  // let ctx;
-
   let basic = document.getElementById("canvas-1");
   var ctx1 = basic.getContext("2d");
   basic.addEventListener("click", () => {
@@ -114,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
   oocanvas.addEventListener("click", () => {
     commands[0] = root; // root
     if (count < 8) {
-      console.log(count);
       for (var j = commands.length - 1; j >= 0; j--) {
         if (!commands[j].finished) {
           commands.push(commands[j].rightBranch());
@@ -321,79 +318,72 @@ function recursive(ctx, startPosX, startPosY, length, angle) {
 
 "use strict";
 const rule = {
-  a: 'X',
-  b: '',
+  a: "X",
+  b: "",
   // b: 'F+[[X]-X]-F[-FX]+X',
-  c: 'F',
-  d: 'F+[+F-F-F]-[-F+F+F]'
+  c: "F",
+  d: "F+[+F-F-F]-[-F+F+F]"
   // d: 'FF+[+F-F-F]-[-F+F+F]'
 };
 
 // const blueprint = 'X';
 
-
 class lsystem {
   constructor(ctx, width, height, length) {
     this.ctx = ctx;
     this.length = length;
-    this.blueprint = 'F';
+    this.blueprint = "F";
     // this.blueprint = 'X';
-    this.setup(width/2, height);
+    this.setup(width / 2, height);
   }
 
   setup(posX, posY) {
     this.ctx.translate(posX, posY);
-    this.ctx.moveTo(0,0);
-    console.log('DONE');
+    this.ctx.moveTo(0, 0);
   }
 
-  generate () {
-    let result = '';
+  generate() {
+    let result = "";
     for (var i = 0; i < this.blueprint.length; i++) {
       var char = this.blueprint.charAt(i);
 
       if (rule.a === char) {
         result += rule.b;
       } else if (rule.c === char) {
-        result += rule.d
+        result += rule.d;
       } else {
-        result += char
+        result += char;
       }
     }
     this.blueprint = result;
-    this.length *= (2/3);
+    this.length *= 2 / 3;
 
-    // console.log(this.blueprint, this.length);
     this.path(this.blueprint, this.length);
   }
 
-
   path(blueprint, length) {
-
     if (length > 20) {
-     for (var i = 0; i < blueprint.length; i++) {
-       let char = blueprint.charAt(i);
+      for (var i = 0; i < blueprint.length; i++) {
+        let char = blueprint.charAt(i);
 
-
-       if (char === 'F') {
-         this.ctx.beginPath();
-         this.ctx.moveTo(0,0);
-         this.ctx.lineTo(0, -length);
-         this.ctx.translate(0, -length);
-         this.ctx.stroke();
-       } else if (char === '-') {
-         this.ctx.rotate(-Math.PI/9);
-       } else if (char === '+') {
-         this.ctx.rotate(Math.PI/9);
-       } else if (char === '[') {
-         this.ctx.save();
-       } else if (char === ']') {
-         this.ctx.restore();
-       }
-     }
-   }
- }
-
+        if (char === "F") {
+          this.ctx.beginPath();
+          this.ctx.moveTo(0, 0);
+          this.ctx.lineTo(0, -length);
+          this.ctx.translate(0, -length);
+          this.ctx.stroke();
+        } else if (char === "-") {
+          this.ctx.rotate(-Math.PI / 9);
+        } else if (char === "+") {
+          this.ctx.rotate(Math.PI / 9);
+        } else if (char === "[") {
+          this.ctx.save();
+        } else if (char === "]") {
+          this.ctx.restore();
+        }
+      }
+    }
+  }
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (lsystem);
@@ -464,4 +454,4 @@ class OOTree {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.js.map
+//# sourceMappingURL=else.js.map
