@@ -1,3 +1,5 @@
+Live link: www.cindyjgomez.com/fractaltrees/
+
 ### Background
 <br>
 Fractal Tree will be built recursively, every branch will have 2 branches. I plan to be able to keep track of the number of recursive steps and let the tree be built on a click of a button for better visualization.
@@ -12,12 +14,5 @@ Fractal Trees will allow:
 
 ### Technologies
 <br>
-I will use Javascript for the game logic in this project and Canvas as well to manipulate the branch thickness. 
+I will use Javascript to implement the creation of the tree and Canvas for visualization.
 
-### Implementation Timeline
-<br> Day 1: 
-Set up skeleton for project and decide what base case will be for this recursive project. Learn how to use canvas. Start recursive   algorithm.
-<br> Day 2:
-Complete backend algorithm for recusively done fractal trees and edit to  and make prettier with canvas tools.
-<br> Day 3:
-Make front-end view nicer
