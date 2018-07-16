@@ -5,7 +5,6 @@ Live link: www.cindyjgomez.com/fractaltrees/
 Fractal Tree will be built recursively, every branch will have 2 branches. I plan to be able to keep track of the number of recursive steps and let the tree be built on a click of a button for better visualization.
 
 ### MVP
-<br>
 Fractal Trees will allow:
 <li> visualization of tree being built recursively
 <li> try to implement another form of recursive function for variation of building fractal tree. L-System will allow tree to be built at angle
