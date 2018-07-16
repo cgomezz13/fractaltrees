@@ -13,3 +13,7 @@ Fractal Trees will allow:
 ## Technologies
 I will use Javascript to implement the creation of the tree and Canvas for visualization.
 
+## Future Features
+* Get leaves to fall from OO Tree
+* Allow user to input angle they would like to create a fractal tree
+* Add color options for leaves
