@@ -1,17 +1,17 @@
 Live link: www.cindyjgomez.com/fractaltrees/
 
 ## Background
-Fractal Tree will be built recursively, every branch will have 2 branches. I plan to be able to keep track of the number of recursive steps and let the tree be built on a click of a button for better visualization.
+Binary Fractal Trees are built recursively, every branch has 2 branches that stem from it. This project explores the different approaches to building a fractal tree such as: recursively, using an L-System and Object Oriented model. This provides visualization of the different approaches.
 
-## MVP
-Fractal Trees will allow:
-* visualization of tree being built recursively
-* try to implement another form of recursive function for variation of building fractal tree. L-System will allow tree to be built at angle
-* Use Bezier Curves from Canvas API to add curves to branches, after initial build
+## Features
+Fractal Trees allow:
+* visualization of trees being built through different approaches
 * Description of algorithm being used to create tree
+* Description of advantages and disadvatages to each approach
+
 
 ## Technologies
-I will use Javascript to implement the creation of the tree and Canvas for visualization.
+Javascript was used to implement the creation of the tree and Canvas for visualization.
 
 ## Future Features
 * Get leaves to fall from OO Tree
