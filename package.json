@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/cgomezz13/fractaltrees#readme",
   "dependencies": {
-    "webpack": "^3.12.0"
+    "webpack": "^5.75.0"
   }
 }
